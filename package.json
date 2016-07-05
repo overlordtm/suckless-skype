@@ -9,6 +9,10 @@
     "linux",
     "web"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/overlordtm/suckless-skype.git"
+  },
   "scripts": {
     "start": "node_modules/.bin/nw ."
   },
@@ -22,9 +26,6 @@
   },
   "webkit": {
     "plugin": true
-  },
-  "devDependencies": {
-    "nwjs": "^1.4.2"
   },
   "dependencies": {
     "nw": "^0.15.4"
